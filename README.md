@@ -1,5 +1,5 @@
 # Simple Request Runtime Permission
-This library Simplify request runtime permission process available in Android M and above.
+This library simplify request runtime permission process available in Android M and above.
 
 # Setup
 1. Add JitPack repository to your root build.gradle
