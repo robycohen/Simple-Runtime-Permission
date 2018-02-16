@@ -2,7 +2,6 @@ package com.robydarmansyah.simplepermission;
 
 import android.Manifest;
 import android.app.Activity;
-import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 
@@ -50,7 +49,7 @@ public class SimplePermission implements SimplePermissionInstance.OnPermissionRe
     }
 
     public SimplePermission request(String... permissions) {
-        initial(activity,permissions);
+        initial(permissions);
         return this;
     }
 
@@ -58,12 +57,9 @@ public class SimplePermission implements SimplePermissionInstance.OnPermissionRe
         this.onRequestResult = onRequestResult;
     }
 
-    private void initial(Context context,String...permissions) {
-        Intent intent = getIntent(context, SimplePermissionActivity.class);
-        if (context instanceof Application) {
-            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        }
-        context.startActivity(intent);
+    private void initial(String...permissions) {
+        Intent intent = getIntent(activity, SimplePermissionActivity.class);
+        activity.startActivity(intent);
         SimplePermissionInstance.requestResult(this,permissions);
     }
 
