@@ -46,6 +46,7 @@ public class SimplePermission implements SimplePermissionInstance.OnPermissionRe
     public static SimplePermission with(Activity activity) {
         return new SimplePermission(activity);
     }
+    
 
     public SimplePermission request(String... permissions) {
         initial(permissions);
