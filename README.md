@@ -22,6 +22,7 @@ dependencies {
 1. Add uses-permission to AndroidManifest
 ```
 <uses-permission android:name="android.permission.CAMERA"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 ```
 2. Request Permissions
 ```
