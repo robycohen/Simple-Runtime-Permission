@@ -2,7 +2,7 @@
 This library Simplify request runtime permission process available in Android M and above.
 
 # Setup
-1. Add it in your root build.gradle at the end of repositories
+1. Add JitPack repository to your root build.gradle
 ```
 allprojects {
 		repositories {
@@ -14,7 +14,7 @@ allprojects {
 2. Add the dependency in your gradle
 ```
 dependencies {
-		compile 'com.github.User:Repo:Tag'
+		compile 'com.github.robycohen:Simple-Runtime-Permission:1.0'
 	}
 ```
 
