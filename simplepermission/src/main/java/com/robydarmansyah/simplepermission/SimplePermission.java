@@ -39,7 +39,6 @@ public class SimplePermission implements SimplePermissionInstance.OnPermissionRe
 
     private OnRequestResult onRequestResult;
     private Activity activity;
-
     private SimplePermission(Activity activity) {
         this.activity = activity;
     }
