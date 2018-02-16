@@ -1,4 +1,4 @@
-# Simple Request Runtime Permission
+# Simple Runtime Permission
 This library simplify request runtime permission process available in Android M and above.
 
 # Setup
