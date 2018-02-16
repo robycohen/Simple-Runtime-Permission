@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.robydarmansyah.simplepermission" >
+
+    <application>
+        <activity android:name=".SimplePermissionActivity"
+            android:theme="@style/PermRequestTheme.Fullscreen"/>
+    </application>
+
+</manifest>
