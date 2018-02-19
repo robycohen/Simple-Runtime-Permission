@@ -41,7 +41,7 @@ SimplePermission.with(MainActivity.this)
                 });
 ```
 
-# Screenshots
+# Screenshot
 ![alt text](https://github.com/robycohen/Simple-Runtime-Permission/blob/master/preview.png)
 
 # License
