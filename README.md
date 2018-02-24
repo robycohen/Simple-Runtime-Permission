@@ -26,7 +26,7 @@ dependencies {
 ```
 2. Request Permissions
 ```
-SimplePermission.with(MainActivity.this)
+SimplePermission.with(activity)
                 .request(SimplePermission.CAMERA,SimplePermission.WRITE_EXTERNAL_STORAGE)
                 .onRequestResultListener(new SimplePermission.OnRequestResult() {
                     @Override
